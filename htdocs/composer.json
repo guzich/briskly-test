@@ -1,0 +1,19 @@
+{
+    "name": "guzich/briskly-test",
+    "authors": [
+        {
+            "name": "Andrey Guzich",
+            "email": "a.guzich@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0",
+        "phpoffice/phpspreadsheet": "^1.15",
+        "nicolab/php-ftp-client": "^1.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "app\\": "app"
+        }
+    }
+}
